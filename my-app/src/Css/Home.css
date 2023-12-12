@@ -1,0 +1,195 @@
+.home {
+    position: absolute;
+    top: 362px;
+    left: 1723px;
+    display: inline-block;
+    width: 158px;
+    height: 47px;
+  }
+  .desktop-1-child {
+    position: absolute;
+    top: 420px;
+    left: 1215px;
+    background-color: #d9d9d9;
+    width: 666px;
+    height: 467px;
+  }
+  .student-projects,
+  .universitiesprofessors-collab {
+    position: absolute;
+    top: 442px;
+    left: 1235px;
+    display: inline-block;
+    width: 466px;
+    height: 57px;
+    cursor: pointer;
+  }
+  .universitiesprofessors-collab {
+    top: 499px;
+    left: 1235px;
+    width: 626px;
+    height: 78px;
+  }
+  .career-counselling-services,
+  .courses,
+  .events,
+  .roles,
+  .logout,
+  .industry-collaborations {
+    position: absolute;
+    top: 554px;
+    left: 1235px;
+    display: inline-block;
+    width: 474px;
+    height: 60px;
+    cursor: pointer;
+  }
+  .career-counselling-services,
+  .courses,
+  .events {
+    top: 608px;
+    left: 1235px;
+  }
+  .courses,
+  .events {
+    top: 665px;
+    left: 1235px;
+  }
+  .events {
+    top: 723px;
+    left: 1235px;
+  }
+  .roles {
+    top: 780px;
+    left: 1235px;
+  }
+  .logout {
+    top: 830px;
+    left: 1235px;
+  }
+  .about-drv,
+  .dr-venkata-inukollu {
+    position: absolute;
+    top: 372px;
+    left: 46px;
+    display: inline-block;
+    width: 202px;
+    height: 46px;
+  }
+  .dr-venkata-inukollu {
+    top: 439px;
+    left: 402px;
+    width: 762px;
+    height: 320px;
+  }
+  .dr-venkata-inukollu1 {
+    margin: 0;
+    font-size: var(--font-size-29xl);
+  }
+  .blank-line {
+    margin: 0;
+    font-weight: 600;
+  }
+  .dr-venkata-inukollu-container {
+    position: absolute;
+    top: 131px;
+    left: 46px;
+    display: inline-block;
+    width: 613px;
+    height: 220px;
+  }
+  .image-2-icon {
+    position: absolute;
+    top: 124px;
+    left: 1406px;
+    width: 475px;
+    height: 135px;
+    object-fit: cover;
+  }
+  .desktop-1-item,
+  .image-3-icon {
+    position: absolute;
+    top: 342.9px;
+    left: 0;
+    width: 1910px;
+    height: 11.1px;
+  }
+  .image-3-icon {
+    top: 447px;
+    left: 46px;
+    width: 323px;
+    height: 312px;
+    object-fit: cover;
+  }
+  .contact-information {
+    position: absolute;
+    top: 863px;
+    left: 51px;
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+    display: inline-block;
+    width: 398px;
+    height: 46px;
+  }
+  .please-do-not {
+    margin: 0;
+  }
+  .span {
+    font-family: var(--font-inter);
+  }
+  .the-best-way-to-reach-me-is-vi {
+    margin: 0;
+    font-family: var(--font-jacques-francois);
+  }
+  .please-do-not-container,
+  .seet-lab {
+    position: absolute;
+    display: inline-block;
+  }
+  .please-do-not-container {
+    top: 946px;
+    left: 59px;
+    font-size: var(--font-size-17xl);
+    white-space: pre-wrap;
+    width: 1851px;
+    height: 195px;
+  }
+  .seet-lab {
+    top: 0;
+    left: 783px;
+    font-size: var(--font-size-29xl);
+    width: 249px;
+    height: 122px;
+  }
+  .desktop-1 {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1281px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
+
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-jacques-francois: "Jacques Francois";
+
+  /* font sizes */
+  --font-size-29xl: 48px;
+  --font-size-17xl: 36px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-black: #000;
+}
